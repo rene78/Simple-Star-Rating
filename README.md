@@ -1,0 +1,1 @@
+A simple star rating with just a few lines of CSS. No external libraries.

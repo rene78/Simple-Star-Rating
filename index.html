@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <script src="test.js"></script>
+  <style>
+    .container {
+      width: 300px;
+      background-color: gray;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .star:before {
+      content: '★ ';
+    }
+
+    .stars {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      font-size: 30px;
+      justify-content: center;
+      color: #ccc;
+    }
+
+    .activated {
+      color: #ffc700;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <h2>Heading</h2>
+    <div class="stars">
+      <div class="star activated"></div>
+      <div class="star"></div>
+    </div>
+    <p>Some text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quidem officia. Blanditiis molestias,
+      quisquam perferendis exercitationem pariatur sed in laboriosam. Ipsa, quisquam nulla. Cumque, consequatur
+      eligendi. Repudiandae odit ut cumque.
+    </p>
+  </div>
+</body>
+
+</html>
